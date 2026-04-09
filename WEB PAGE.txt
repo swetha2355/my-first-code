@@ -1,0 +1,140 @@
+WEB PAGE
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STORY</title>
+    <link rel="stylesheet" href="cops.css">
+</head>
+<body>
+<center>
+<h1>ONE PIECE</h1>
+<p class="links">
+    <a href="https://www.wikipedia.org">Wikipedia</a> 
+</p>
+</center>
+<img src="all.jpg" class="curved-img">
+<h2>Crew Members</h2>
+<ol type="1">
+    <li>Monkey D. Luffy</li>
+    <li>Roronoa Zoro</li>
+    <li>Sanji</li>
+    <li>Usopp</li>
+    <li>Nami</li>
+</ol>
+<h2>Role</h2>
+<ul class="image-list">
+    <li>Luffy - Captain</li><br>
+    <li>Zoro  - Swordsman</li><br>
+    <li>Sanji - Cook</li><br>
+    <li>Usopp - Sniper</li><br> 
+    <li>Nami  - Navigator</li><br>
+</ul>
+<h2>Pirates</h2>
+<ol type="i">
+    <li>Buggy The Clown</li>
+    <li>Don Krieg</li>
+    <li>Saw-tooth Arlog</li>
+</ol>
+<h2>We Work Together By Working Separeately!!!</h2>
+<p class="note">
+    <span>T</span>he first five Straw Hats bond based on a simple philosophy: "We work together by working separately".The true core of their friendship was cemented during the Arlong Park Arc. Luffy
+    <img src="luffy.jpg" class="sto-img">
+    took on the leader, Arlong, proving his dedication by destroying the room where Nami
+    <img src="nami.jpg" class="sto-img">
+    had been forced to draw maps for years, symbolizing her freedom. Zoro
+    <img src="zoro.jpg" class="sto-img">
+    , despite being gravely injured from a previous duel with Mihawk, stood his ground against the Fish-men. Sanji
+    <img src="sanji.jpg" class="sto-img">
+    used his strength to protect the others from the underwater threats of the Fish-men, proving that his hands were for cooking, but his legs were for his friends.Usopp
+    <img src="usopp.jpg" class="sto-img">
+    , though terrified, lured a powerful officer away to ensure the others could reach the main park.
+<h2>Introduction Episode</h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Ep Number</th>
+        <th>Ep Name</th>
+    </tr>
+    <tr>
+        <td>Luffy</td>
+        <td>1</td>
+        <td>I'm Luffy! The Man Who Will Become the Pirate King!</td>
+    </tr>
+    <tr>
+        <td>Zoro</td>
+        <td>2</td>
+        <td>Enter the Great Swordsman! Pirate Hunter Roronoa Zoro</td>
+    </tr>
+    <tr>
+        <td>Nami</td>
+        <td>8</td>
+        <td>Who is the Victor? Devil Fruit Abilities Shockdown!</td>
+    </tr>
+    <tr>
+        <td>Usopp</td>
+        <td>9</td>
+        <td>The Honorable Liar? Captain Usopp!</td>
+    </tr>
+    <tr>
+        <td>Sanji</td>
+        <td>20</td>
+        <td>The Famous Cook! Sanji of the Sea Restaurant</td>
+    </tr>
+</table>
+</body>
+</html>
+
+CSS
+body {
+    font-family: "times new roman", Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+    color: rgb(36, 26, 219);
+
+}
+.links {
+    font-size: 18px;
+}
+.curved-img {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+    border: 10px solid rgb(147, 201, 240);
+    display: block;
+    float:right
+}
+.image-list {
+    list-style-image: url("bullet1.png");
+}
+.note {
+    width: 1200px;
+    background-color: rgb(147, 201, 240);
+    border: 2px solid rgb(47, 124, 178);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: justify;
+}
+.sto-img{
+    width: 60px;
+    vertical-align: middle;
+}
+table {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 3px solid black;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color:rgb(147,201,240);
+}
+span{
+    font-size:25px;
+}
+
+
